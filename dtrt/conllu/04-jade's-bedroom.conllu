@@ -1,0 +1,487 @@
+# loc = INT
+# parse = (S (NP (NP (NNP JADE)) (, ,) (NP (NP (NNP Mookie) (POS 's)) (NN sister)) (, ,)) (VP (VBZ is) (ADJP (RB fast) (JJ asleep))) (. .))
+# scene = 4
+# sent_id = 1
+# sent_len = 10
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = JADE, Mookie's sister, is fast asleep.
+# time = DAY
+1	JADE	JADE	PROPN	NNP	_	7	nsubj	_	ent_type=ORG|ent_id=3|ent_iob=B
+2	,	,	PUNCT	,	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+3	Mookie	Mookie	PROPN	NNP	_	5	poss	_	ent_type=ORG|ent_id=3|ent_iob=B
+4	's	's	PART	POS	_	3	case	_	ent_type=_|ent_id=2|ent_iob=O
+5	sister	sister	NOUN	NN	_	1	appos	_	ent_type=_|ent_id=2|ent_iob=O
+6	,	,	PUNCT	,	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+8	fast	fast	ADV	RB	_	9	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+9	asleep	asleep	ADJ	JJ	_	7	acomp	_	ent_type=_|ent_id=2|ent_iob=O
+10	.	.	PUNCT	.	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NP (NNP Mookie) (POS 's)) (NNS fingers)) (VP (VP (VBP ENTER) (NP (DT THE) (NNP FRAME))) (CC and) (VP (VB start) (S (VP (TO to) (VP (VB play) (PP (IN with) (NP (PRP$ her) (NNS lips)))))))) (. .))
+# scene = 4
+# sent_id = 2
+# sent_len = 14
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Mookie's fingers ENTER THE FRAME and start to play with her lips.
+# time = DAY
+1	Mookie	Mookie	PROPN	NNP	_	3	poss	_	ent_type=PERSON|ent_id=3|ent_iob=B
+2	's	's	PART	POS	_	1	case	_	ent_type=_|ent_id=2|ent_iob=O
+3	fingers	finger	NOUN	NNS	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	ENTER	enter	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	THE	the	DET	DT	_	6	det	_	ent_type=_|ent_id=2|ent_iob=O
+6	FRAME	FRAME	PROPN	NNP	_	4	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	and	and	CCONJ	CC	_	4	cc	_	ent_type=_|ent_id=2|ent_iob=O
+8	start	start	VERB	VB	_	4	conj	_	ent_type=_|ent_id=2|ent_iob=O
+9	to	to	PART	TO	_	10	aux	_	ent_type=_|ent_id=2|ent_iob=O
+10	play	play	VERB	VB	_	8	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+11	with	with	ADP	IN	_	10	prep	_	ent_type=_|ent_id=2|ent_iob=O
+12	her	-PRON-	DET	PRP$	_	13	poss	_	ent_type=_|ent_id=2|ent_iob=O
+13	lips	lip	NOUN	NNS	_	11	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+14	.	.	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NNP Jade)) (VP (VBZ pushes) (NP (PRP$ his) (NNS hands)) (ADVP (RB away))) (. .))
+# scene = 4
+# sent_id = 3
+# sent_len = 6
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Jade pushes his hands away.
+# time = DAY
+1	Jade	Jade	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	pushes	push	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	his	-PRON-	DET	PRP$	_	4	poss	_	ent_type=_|ent_id=2|ent_iob=O
+4	hands	hand	NOUN	NNS	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	away	away	ADV	RB	_	2	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (S (NP (NNP Mookie)) (VP (VBZ waits) (NP (JJ several) (NNS beats)))) (CC and) (S (NP (PRP he)) (VP (VBZ continues))) (. .))
+# scene = 4
+# sent_id = 4
+# sent_len = 8
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Mookie waits several beats and he continues.
+# time = DAY
+1	Mookie	Mookie	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	waits	wait	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	several	several	ADJ	JJ	_	4	amod	_	ent_type=_|ent_id=2|ent_iob=O
+4	beats	beat	NOUN	NNS	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	and	and	CCONJ	CC	_	2	cc	_	ent_type=_|ent_id=2|ent_iob=O
+6	he	-PRON-	PRON	PRP	_	7	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+7	continues	continue	VERB	VBZ	_	2	conj	_	ent_type=_|ent_id=2|ent_iob=O
+8	.	.	PUNCT	.	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NNP Jade)) (VP (VBZ wakes) (PRT (RP up)) (: --) (ADJP (JJ mad))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 5
+# sent_len = 6
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Jade wakes up--mad.
+# time = DAY
+1	Jade	Jade	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	wakes	wake	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	up	up	ADP	RP	_	2	prt	_	ent_type=_|ent_id=2|ent_iob=O
+4	--	--	PUNCT	:	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+5	mad	mad	ADJ	JJ	_	2	amod	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NP (NNP JADE)) (, ,) (NP (NP (NNP Mookie) (POS 's)) (NN sister)) (, ,)) (VP (VBZ is) (ADJP (RB fast) (JJ asleep))) (. .))
+# scene = 4
+# sent_id = 6
+# sent_len = 10
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = JADE, Mookie's sister, is fast asleep.
+# time = DAY
+1	JADE	JADE	PROPN	NNP	_	7	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	,	,	PUNCT	,	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+3	Mookie	Mookie	PROPN	NNP	_	5	poss	_	ent_type=PERSON|ent_id=3|ent_iob=B
+4	's	's	PART	POS	_	3	case	_	ent_type=_|ent_id=2|ent_iob=O
+5	sister	sister	NOUN	NN	_	1	appos	_	ent_type=_|ent_id=2|ent_iob=O
+6	,	,	PUNCT	,	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+8	fast	fast	ADV	RB	_	9	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+9	asleep	asleep	ADJ	JJ	_	7	acomp	_	ent_type=_|ent_id=2|ent_iob=O
+10	.	.	PUNCT	.	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NP (NNP Mookie) (POS 's)) (NNS fingers)) (VP (VP (VBP ENTER) (NP (DT THE) (NNP FRAME))) (CC and) (VP (VB start) (S (VP (TO to) (VP (VB play) (PP (IN with) (NP (PRP$ her) (NNS lips)))))))) (. .))
+# scene = 4
+# sent_id = 7
+# sent_len = 14
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Mookie's fingers ENTER THE FRAME and start to play with her lips.
+# time = DAY
+1	Mookie	Mookie	PROPN	NNP	_	3	poss	_	ent_type=PERSON|ent_id=3|ent_iob=B
+2	's	's	PART	POS	_	1	case	_	ent_type=_|ent_id=2|ent_iob=O
+3	fingers	finger	NOUN	NNS	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	ENTER	enter	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	THE	the	DET	DT	_	6	det	_	ent_type=_|ent_id=2|ent_iob=O
+6	FRAME	FRAME	PROPN	NNP	_	4	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	and	and	CCONJ	CC	_	4	cc	_	ent_type=_|ent_id=2|ent_iob=O
+8	start	start	VERB	VB	_	4	conj	_	ent_type=_|ent_id=2|ent_iob=O
+9	to	to	PART	TO	_	10	aux	_	ent_type=_|ent_id=2|ent_iob=O
+10	play	play	VERB	VB	_	8	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+11	with	with	ADP	IN	_	10	prep	_	ent_type=_|ent_id=2|ent_iob=O
+12	her	-PRON-	DET	PRP$	_	13	poss	_	ent_type=_|ent_id=2|ent_iob=O
+13	lips	lip	NOUN	NNS	_	11	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+14	.	.	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NNP Jade)) (VP (VBZ pushes) (NP (PRP$ his) (NNS hands)) (ADVP (RB away))) (. .))
+# scene = 4
+# sent_id = 8
+# sent_len = 6
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Jade pushes his hands away.
+# time = DAY
+1	Jade	Jade	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	pushes	push	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	his	-PRON-	DET	PRP$	_	4	poss	_	ent_type=_|ent_id=2|ent_iob=O
+4	hands	hand	NOUN	NNS	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	away	away	ADV	RB	_	2	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (S (NP (NNP Mookie)) (VP (VBZ waits) (NP (JJ several) (NNS beats)))) (CC and) (S (NP (PRP he)) (VP (VBZ continues))) (. .))
+# scene = 4
+# sent_id = 9
+# sent_len = 8
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Mookie waits several beats and he continues.
+# time = DAY
+1	Mookie	Mookie	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	waits	wait	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	several	several	ADJ	JJ	_	4	amod	_	ent_type=_|ent_id=2|ent_iob=O
+4	beats	beat	NOUN	NNS	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	and	and	CCONJ	CC	_	2	cc	_	ent_type=_|ent_id=2|ent_iob=O
+6	he	-PRON-	PRON	PRP	_	7	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+7	continues	continue	VERB	VBZ	_	2	conj	_	ent_type=_|ent_id=2|ent_iob=O
+8	.	.	PUNCT	.	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NNP Jade)) (VP (VBZ wakes) (PRT (RP up)) (: --) (ADJP (JJ mad))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 10
+# sent_len = 6
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = Jade wakes up--mad.
+# time = DAY
+1	Jade	Jade	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	wakes	wake	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	up	up	ADP	RP	_	2	prt	_	ent_type=_|ent_id=2|ent_iob=O
+4	--	--	PUNCT	:	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+5	mad	mad	ADJ	JJ	_	2	amod	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 7
+# loc = INT
+# parse = (SQ (VBP Do) (RB n't) (NP (PRP you)) (VP (VB have) (NP (NP (JJ enough) (NN sense)) (S (RB not) (VP (TO to) (VP (VB bother) (NP (NNS people)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP 're) (VP (VBG sleeping)))))))))) (. ?) (_SP  ))
+# scene = 4
+# sent_id = 11
+# sent_len = 15
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Don't you have enough sense not to bother people when they're sleeping?
+# time = DAY
+1	Do	do	AUX	VBP	_	4	aux	_	ent_type=_|ent_id=2|ent_iob=O
+2	n't	not	PART	RB	_	4	neg	_	ent_type=_|ent_id=2|ent_iob=O
+3	you	-PRON-	PRON	PRP	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	have	have	AUX	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	enough	enough	ADJ	JJ	_	6	amod	_	ent_type=_|ent_id=2|ent_iob=O
+6	sense	sense	NOUN	NN	_	4	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	not	not	PART	RB	_	9	neg	_	ent_type=_|ent_id=2|ent_iob=O
+8	to	to	PART	TO	_	9	aux	_	ent_type=_|ent_id=2|ent_iob=O
+9	bother	bother	VERB	VB	_	6	acl	_	ent_type=_|ent_id=2|ent_iob=O
+10	people	people	NOUN	NNS	_	9	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+11	when	when	ADV	WRB	_	14	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+12	they	-PRON-	PRON	PRP	_	14	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+13	're	be	AUX	VBP	_	14	aux	_	ent_type=_|ent_id=2|ent_iob=O
+14	sleeping	sleep	VERB	VBG	_	9	advcl	_	ent_type=_|ent_id=2|ent_iob=O
+15	?	?	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 8
+# loc = INT
+# parse = (S (VP (VB Wake) (PRT (RP up))) (. !) (_SP  ))
+# scene = 4
+# sent_id = 12
+# sent_len = 3
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = Wake up!
+# time = DAY
+1	Wake	wake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 9
+# loc = INT
+# parse = (S (VP (VB Wake) (PRT (RP up))) (. ?))
+# scene = 4
+# sent_id = 13
+# sent_len = 3
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Wake up?
+# time = DAY
+1	Wake	wake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	?	?	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 9
+# loc = INT
+# parse = (S (NP (NNP Saturday)) (VP (VBZ is) (NP (NP (DT the) (JJ lone) (NN day)) (SBAR (S (NP (PRP I)) (VP (VBP get) (S (VP (TO to) (VP (NN sleep) (ADVP (RB late)))))))))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 14
+# sent_len = 11
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Saturday is the lone day I get to sleep late.
+# time = DAY
+1	Saturday	Saturday	PROPN	NNP	_	2	npadvmod	_	ent_type=DATE|ent_id=3|ent_iob=B
+2	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	the	the	DET	DT	_	5	det	_	ent_type=_|ent_id=2|ent_iob=O
+4	lone	lone	ADJ	JJ	_	5	amod	_	ent_type=_|ent_id=2|ent_iob=O
+5	day	day	NOUN	NN	_	2	attr	_	ent_type=_|ent_id=2|ent_iob=O
+6	I	-PRON-	PRON	PRP	_	7	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+7	get	get	VERB	VBP	_	5	relcl	_	ent_type=_|ent_id=2|ent_iob=O
+8	to	to	PART	TO	_	9	aux	_	ent_type=_|ent_id=2|ent_iob=O
+9	sleep	sleep	NOUN	NN	_	7	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+10	late	late	ADV	RB	_	9	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+11	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 10
+# loc = INT
+# parse = (S (NP (PRP It)) (VP (VBZ 's) (VP (VBG gon) (S (VP (TO na) (VP (VB be) (ADJP (JJ hot)) (NP (NN today))))))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 15
+# sent_len = 8
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = It's gonna be hot today.
+# time = DAY
+1	It	-PRON-	PRON	PRP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	's	be	AUX	VBZ	_	3	aux	_	ent_type=_|ent_id=2|ent_iob=O
+3	gon	go	VERB	VBG	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	na	to	PART	TO	_	5	aux	_	ent_type=_|ent_id=2|ent_iob=O
+5	be	be	AUX	VB	_	3	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+6	hot	hot	ADJ	JJ	_	5	acomp	_	ent_type=_|ent_id=2|ent_iob=O
+7	today	today	NOUN	NN	_	5	npadvmod	_	ent_type=DATE|ent_id=3|ent_iob=B
+8	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 11
+# loc = INT
+# parse = (ADJP (UH Good) (. !))
+# scene = 4
+# sent_id = 16
+# sent_len = 2
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Good!
+# time = DAY
+1	Good	good	INTJ	UH	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 11
+# loc = INT
+# parse = (S (VP (VB Leave) (NP (PRP me)) (ADVP (JJ alone)) (SBAR (WHADVP (WRB when)) (S (NP (PRP I)) (VP (VBP 'm) (VP (VBG sleeping)))))) (. .))
+# scene = 4
+# sent_id = 17
+# sent_len = 8
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Leave me alone when I'm sleeping.
+# time = DAY
+1	Leave	leave	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	me	-PRON-	PRON	PRP	_	1	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+3	alone	alone	ADJ	JJ	_	1	oprd	_	ent_type=_|ent_id=2|ent_iob=O
+4	when	when	ADV	WRB	_	7	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+5	I	-PRON-	PRON	PRP	_	7	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+6	'm	be	AUX	VBP	_	7	aux	_	ent_type=_|ent_id=2|ent_iob=O
+7	sleeping	sleep	VERB	VBG	_	1	advcl	_	ent_type=_|ent_id=2|ent_iob=O
+8	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 11
+# loc = INT
+# parse = (S (NP (PRP I)) (VP (VBP 'm) (VP (VBG gon) (S (VP (TO na) (VP (VB get) (NP (NP (DT a) (NN lock)) (PP (IN on) (NP (PRP$ my) (NN door)))) (, ,) (S (VP (TO to) (VP (VB keep) (S (NP (PRP ya) (NN ass)) (PP (NNP outta) (NP (RB here)))))))))))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 18
+# sent_len = 18
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = I'm gonna get a lock on my door, to keep ya ass outta here.
+# time = DAY
+1	I	-PRON-	PRON	PRP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	'm	be	AUX	VBP	_	3	aux	_	ent_type=_|ent_id=2|ent_iob=O
+3	gon	go	VERB	VBG	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	na	to	PART	TO	_	5	aux	_	ent_type=_|ent_id=2|ent_iob=O
+5	get	get	AUX	VB	_	3	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+6	a	a	DET	DT	_	7	det	_	ent_type=_|ent_id=2|ent_iob=O
+7	lock	lock	NOUN	NN	_	5	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+8	on	on	ADP	IN	_	5	prep	_	ent_type=_|ent_id=2|ent_iob=O
+9	my	-PRON-	DET	PRP$	_	10	poss	_	ent_type=_|ent_id=2|ent_iob=O
+10	door	door	NOUN	NN	_	8	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+11	,	,	PUNCT	,	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+12	to	to	PART	TO	_	13	aux	_	ent_type=_|ent_id=2|ent_iob=O
+13	keep	keep	VERB	VB	_	5	dep	_	ent_type=_|ent_id=2|ent_iob=O
+14	ya	ya	PRON	PRP	_	13	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+15	ass	ass	NOUN	NN	_	16	amod	_	ent_type=_|ent_id=2|ent_iob=O
+16	outta	outta	PROPN	NNP	_	13	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+17	here	here	ADV	RB	_	13	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+18	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 12
+# loc = INT
+# parse = (SQ (VBP Do) (RB n't) (NP (PRP ya)) (VP (VB love) (NP (PRP ya) (NN brother) (NNP Mookie)) (ADVP (RB anymore))) (. ?))
+# scene = 4
+# sent_id = 19
+# sent_len = 9
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = Don't ya love ya brother Mookie anymore?
+# time = DAY
+1	Do	do	AUX	VBP	_	4	aux	_	ent_type=_|ent_id=2|ent_iob=O
+2	n't	not	PART	RB	_	4	neg	_	ent_type=_|ent_id=2|ent_iob=O
+3	ya	ya	PRON	PRP	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	love	love	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	ya	ya	PRON	PRP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+6	brother	brother	NOUN	NN	_	4	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	Mookie	Mookie	PROPN	NNP	_	6	appos	_	ent_type=PERSON|ent_id=3|ent_iob=B
+8	anymore	anymore	ADV	RB	_	4	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+9	?	?	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 12
+# loc = INT
+# parse = (S (NP (PRP I)) (VP (VBZ loves) (NP (NP (PRP ya)) (, ,) (NP (NNP Jade)))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 20
+# sent_len = 6
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = I loves ya, Jade.
+# time = DAY
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	loves	love	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	ya	ya	PRON	PRP	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+4	,	,	PUNCT	,	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+5	Jade	Jade	PROPN	NNP	_	3	appos	_	ent_type=PERSON|ent_id=3|ent_iob=B
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 13
+# loc = INT
+# parse = (S (VP (VB Do) (NP (PRP me)) (NP (DT a) (NN favor))) (. .))
+# scene = 4
+# sent_id = 21
+# sent_len = 5
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Do me a favor.
+# time = DAY
+1	Do	do	AUX	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	me	-PRON-	PRON	PRP	_	1	dative	_	ent_type=_|ent_id=2|ent_iob=O
+3	a	a	DET	DT	_	4	det	_	ent_type=_|ent_id=2|ent_iob=O
+4	favor	favor	NOUN	NN	_	1	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 13
+# loc = INT
+# parse = (S (VP (VB Go) (PP (IN to) (NP (NN work)))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 22
+# sent_len = 4
+# setting = JADE'S BEDROOM
+# speaker = JADE
+# stage_direction = True
+# text = Go to work.
+# time = DAY
+1	Go	go	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	to	to	ADP	IN	_	1	prep	_	ent_type=_|ent_id=2|ent_iob=O
+3	work	work	NOUN	NN	_	2	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+4	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 14
+# loc = INT
+# parse = (X (ADVP (RB Later) (. .)))
+# scene = 4
+# sent_id = 23
+# sent_len = 2
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = Later.
+# time = DAY
+1	Later	later	ADV	RB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 14
+# loc = INT
+# parse = (S (VP (VBP Got) (VP (TO ta) (VP (VB get) (VP (VBN paid))))) (. .) (_SP  ))
+# scene = 4
+# sent_id = 24
+# sent_len = 5
+# setting = JADE'S BEDROOM
+# speaker = MOOKIE
+# stage_direction = True
+# text = Gotta get paid.
+# time = DAY
+1	Got	got	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	ta	to	PART	TO	_	4	aux	_	ent_type=_|ent_id=2|ent_iob=O
+3	get	get	AUX	VB	_	4	auxpass	_	ent_type=_|ent_id=2|ent_iob=O
+4	paid	pay	VERB	VBN	_	1	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+5	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (PRP He)) (VP (VBZ plants) (NP (DT a) (JJ big) (NN fat) (NN juicy)) (PP (IN on) (NP (NP (PRP$ his) (NN sister) (POS 's)) (NN forehead)))) (. .))
+# scene = 4
+# sent_id = 25
+# sent_len = 12
+# setting = JADE'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = He plants a big fat juicy on his sister's forehead.
+# time = DAY
+1	He	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	plants	plant	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	a	a	DET	DT	_	6	det	_	ent_type=_|ent_id=2|ent_iob=O
+4	big	big	ADJ	JJ	_	6	amod	_	ent_type=_|ent_id=2|ent_iob=O
+5	fat	fat	NOUN	NN	_	6	amod	_	ent_type=_|ent_id=2|ent_iob=O
+6	juicy	juicy	NOUN	NN	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	on	on	ADP	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+8	his	-PRON-	DET	PRP$	_	9	poss	_	ent_type=_|ent_id=2|ent_iob=O
+9	sister	sister	NOUN	NN	_	11	poss	_	ent_type=_|ent_id=2|ent_iob=O
+10	's	's	PART	POS	_	9	case	_	ent_type=_|ent_id=2|ent_iob=O
+11	forehead	forehead	NOUN	NN	_	7	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+12	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O

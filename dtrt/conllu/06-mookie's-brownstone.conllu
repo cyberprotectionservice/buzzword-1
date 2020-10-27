@@ -1,0 +1,20 @@
+# loc = EXT
+# parse = (S (NP (NNP Mookie)) (VP (VP (VBZ comes) (PP (IN down) (NP (PRP$ his) (NN stoop)))) (CC and) (VP (VBZ walks) (PP (TO to) (NP (VB work))))) (. .))
+# scene = 6
+# sent_id = 1
+# sent_len = 10
+# setting = MOOKIE'S BROWNSTONE
+# speaker = stage_direction
+# stage_direction = True
+# text = Mookie comes down his stoop and walks to work.
+# time = DAY
+1	Mookie	Mookie	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	comes	come	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	down	down	ADP	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+4	his	-PRON-	DET	PRP$	_	5	poss	_	ent_type=_|ent_id=2|ent_iob=O
+5	stoop	stoop	NOUN	NN	_	3	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+6	and	and	CCONJ	CC	_	2	cc	_	ent_type=_|ent_id=2|ent_iob=O
+7	walks	walk	VERB	VBZ	_	2	conj	_	ent_type=_|ent_id=2|ent_iob=O
+8	to	to	PART	TO	_	9	aux	_	ent_type=_|ent_id=2|ent_iob=O
+9	work	work	VERB	VB	_	7	xcomp	_	ent_type=_|ent_id=2|ent_iob=O
+10	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O

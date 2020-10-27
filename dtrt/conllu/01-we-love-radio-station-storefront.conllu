@@ -1,0 +1,691 @@
+# loc = INT
+# parse = (S (NP (PRP WE)) (VP (VBP SEE) (NP (RB only) (JJ big) (JJ white) (NNS teeth) (CC and) (NP (ADJP (ADJP (RB very) (NN Negroidal)) (PRN (-LRB- -LRB-) (JJ big) (-RRB- -RRB-))) (NNS lips)))) (. .) (_SP  ))
+# scene = 1
+# sent_id = 1
+# sent_len = 14
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = WE SEE only big white teeth and very Negroidal (big) lips.
+# time = DAY
+1	WE	we	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	SEE	see	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	only	only	ADV	RB	_	6	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+4	big	big	ADJ	JJ	_	6	amod	_	ent_type=_|ent_id=2|ent_iob=O
+5	white	white	ADJ	JJ	_	6	amod	_	ent_type=_|ent_id=2|ent_iob=O
+6	teeth	tooth	NOUN	NNS	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+7	and	and	CCONJ	CC	_	6	cc	_	ent_type=_|ent_id=2|ent_iob=O
+8	very	very	ADV	RB	_	9	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+9	Negroidal	negroidal	NOUN	NN	_	13	nmod	_	ent_type=ORG|ent_id=3|ent_iob=B
+10	(	(	PUNCT	-LRB-	_	13	punct	_	ent_type=_|ent_id=2|ent_iob=O
+11	big	big	ADJ	JJ	_	13	amod	_	ent_type=_|ent_id=2|ent_iob=O
+12	)	)	PUNCT	-RRB-	_	13	punct	_	ent_type=_|ent_id=2|ent_iob=O
+13	lips	lip	NOUN	NNS	_	6	conj	_	ent_type=_|ent_id=2|ent_iob=O
+14	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (NP (VB Waaaake)) (PRT (RP up)) (. !))
+# scene = 1
+# sent_id = 2
+# sent_len = 3
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Waaaake up!
+# time = DAY
+1	Waaaake	waaaake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (VP (VB Wake) (PRT (RP up))) (. !))
+# scene = 1
+# sent_id = 3
+# sent_len = 3
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Wake up!
+# time = DAY
+1	Wake	wake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (VP (VB Wake) (PRT (RP up))) (. !))
+# scene = 1
+# sent_id = 4
+# sent_len = 3
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Wake up!
+# time = DAY
+1	Wake	wake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (VP (VB Wake) (PRT (RP up))) (. !))
+# scene = 1
+# sent_id = 5
+# sent_len = 3
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Wake up!
+# time = DAY
+1	Wake	wake	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	up	up	ADP	RP	_	1	prt	_	ent_type=_|ent_id=2|ent_iob=O
+3	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (IN Up) (NP (PRP ya)) (VP (NN wake)) (. !))
+# scene = 1
+# sent_id = 6
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Up ya wake!
+# time = DAY
+1	Up	up	ADP	IN	_	3	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+2	ya	ya	PRON	PRP	_	1	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+3	wake	wake	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	!	!	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (IN Up) (NP (PRP ya)) (VP (NN wake)) (. !))
+# scene = 1
+# sent_id = 7
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Up ya wake!
+# time = DAY
+1	Up	up	ADP	IN	_	3	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+2	ya	ya	PRON	PRP	_	1	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+3	wake	wake	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	!	!	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 1
+# loc = INT
+# parse = (S (IN Up) (NP (NP (PRP ya)) (VP (NN wake))) (. !) (_SP  ))
+# scene = 1
+# sent_id = 8
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Up ya wake!
+# time = DAY
+1	Up	up	ADP	IN	_	3	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+2	ya	ya	PRON	PRP	_	1	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+3	wake	wake	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	!	!	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 2
+# loc = INT
+# parse = (S (NP (DT This)) (VP (VBZ is) (NP (NNP Mister) (NNP Señor) (NNP Love) (NN Daddy))) (. .))
+# scene = 1
+# sent_id = 9
+# sent_len = 7
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = This is Mister Señor Love Daddy.
+# time = DAY
+1	This	this	DET	DT	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	Mister	Mister	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+4	Señor	Señor	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+5	Love	Love	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+6	Daddy	daddy	NOUN	NN	_	2	attr	_	ent_type=_|ent_id=2|ent_iob=O
+7	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 2
+# loc = INT
+# parse = (NP (NP (PRP$ Your) (NN voice)) (PP (IN of) (NP (NN choice))) (. .))
+# scene = 1
+# sent_id = 10
+# sent_len = 5
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Your voice of choice.
+# time = DAY
+1	Your	-PRON-	DET	PRP$	_	2	poss	_	ent_type=_|ent_id=2|ent_iob=O
+2	voice	voice	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	of	of	ADP	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+4	choice	choice	NOUN	NN	_	3	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 2
+# loc = INT
+# parse = (NP (NP (NP (DT The) (NN world) (POS 's)) (RB only) (CD twelve) (HYPH -) (NN hour) (NN strongman)) (, ,) (ADVP (ADVP (RB here)) (PP (IN on) (NP (NNP WE) (NNP LOVE) (NN radio)))) (, ,) (NP (CD 108) (NNP FM)) (. .))
+# scene = 1
+# sent_id = 11
+# sent_len = 18
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = The world's only twelve-hour strongman, here on WE LOVE radio, 108 FM.
+# time = DAY
+1	The	the	DET	DT	_	2	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	world	world	NOUN	NN	_	8	poss	_	ent_type=_|ent_id=2|ent_iob=O
+3	's	's	PART	POS	_	2	case	_	ent_type=_|ent_id=2|ent_iob=O
+4	only	only	ADV	RB	_	8	amod	_	ent_type=TIME|ent_id=3|ent_iob=B
+5	twelve	twelve	NUM	CD	_	7	nummod	_	ent_type=TIME|ent_id=1|ent_iob=I
+6	-	-	PUNCT	HYPH	_	7	punct	_	ent_type=TIME|ent_id=1|ent_iob=I
+7	hour	hour	NOUN	NN	_	8	compound	_	ent_type=TIME|ent_id=1|ent_iob=I
+8	strongman	strongman	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+9	,	,	PUNCT	,	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+10	here	here	ADV	RB	_	8	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+11	on	on	ADP	IN	_	10	prep	_	ent_type=_|ent_id=2|ent_iob=O
+12	WE	WE	PROPN	NNP	_	13	compound	_	ent_type=_|ent_id=2|ent_iob=O
+13	LOVE	LOVE	PROPN	NNP	_	14	compound	_	ent_type=_|ent_id=2|ent_iob=O
+14	radio	radio	NOUN	NN	_	11	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+15	,	,	PUNCT	,	_	14	punct	_	ent_type=_|ent_id=2|ent_iob=O
+16	108	108	NUM	CD	_	17	nummod	_	ent_type=CARDINAL|ent_id=3|ent_iob=B
+17	FM	FM	PROPN	NNP	_	14	appos	_	ent_type=_|ent_id=2|ent_iob=O
+18	.	.	PUNCT	.	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 2
+# loc = INT
+# parse = (NP (NP (NP (NP (DT The) (JJ last)) (PP (IN on) (NP (PRP$ your) (NN dial)))) (, ,) (CC but) (NP (NP (DT the) (JJ first)) (PP (IN in) (NP (NNP ya) (NNS hearts))))) (, ,) (CC and) (S (NP (DT that)) (VP (VBZ 's) (NP (DT the) (NN truth)) (, ,) (NP (NNP Ruth)))) (. !) (_SP  ))
+# scene = 1
+# sent_id = 12
+# sent_len = 21
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = The last on your dial, but the first in ya hearts, and that's the truth, Ruth!
+# time = DAY
+1	The	the	DET	DT	_	2	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	last	last	ADJ	JJ	_	16	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	on	on	ADP	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+4	your	-PRON-	DET	PRP$	_	5	poss	_	ent_type=_|ent_id=2|ent_iob=O
+5	dial	dial	NOUN	NN	_	3	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+6	,	,	PUNCT	,	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	but	but	CCONJ	CC	_	2	cc	_	ent_type=_|ent_id=2|ent_iob=O
+8	the	the	DET	DT	_	9	det	_	ent_type=_|ent_id=2|ent_iob=O
+9	first	first	ADJ	JJ	_	2	conj	_	ent_type=ORDINAL|ent_id=3|ent_iob=B
+10	in	in	ADP	IN	_	9	prep	_	ent_type=_|ent_id=2|ent_iob=O
+11	ya	ya	PROPN	NNP	_	12	det	_	ent_type=_|ent_id=2|ent_iob=O
+12	hearts	heart	NOUN	NNS	_	10	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+13	,	,	PUNCT	,	_	9	punct	_	ent_type=_|ent_id=2|ent_iob=O
+14	and	and	CCONJ	CC	_	9	cc	_	ent_type=_|ent_id=2|ent_iob=O
+15	that	that	DET	DT	_	16	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+16	's	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+17	the	the	DET	DT	_	18	det	_	ent_type=_|ent_id=2|ent_iob=O
+18	truth	truth	NOUN	NN	_	16	attr	_	ent_type=_|ent_id=2|ent_iob=O
+19	,	,	PUNCT	,	_	18	punct	_	ent_type=_|ent_id=2|ent_iob=O
+20	Ruth	Ruth	PROPN	NNP	_	18	appos	_	ent_type=PERSON|ent_id=3|ent_iob=B
+21	!	!	PUNCT	.	_	16	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (NP (DT The) (NNP CAMERA)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (ADVP (RB STILL)) (NP (VBG PULLING) (NNS BACK))))) (, ,)) (VP (VBZ shows) (SBAR (IN that) (S (NP (NNP Mister) (NNP Señor) (NNP Love) (NN Daddy)) (VP (VBZ is) (ADVP (RB actually)) (VP (VBG sitting) (PP (IN in) (NP (DT a) (JJ storefront) (NN window)))))))) (. .))
+# scene = 1
+# sent_id = 13
+# sent_len = 23
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = The CAMERA, which is STILL PULLING BACK, shows that Mister Señor Love Daddy is actually sitting in a storefront window.
+# time = DAY
+1	The	the	DET	DT	_	2	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	CAMERA	CAMERA	PROPN	NNP	_	10	nsubj	_	ent_type=ORG|ent_id=3|ent_iob=B
+3	,	,	PUNCT	,	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+4	which	which	DET	WDT	_	5	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+5	is	be	AUX	VBZ	_	2	relcl	_	ent_type=_|ent_id=2|ent_iob=O
+6	STILL	still	ADV	RB	_	7	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+7	PULLING	pull	VERB	VBG	_	5	attr	_	ent_type=_|ent_id=2|ent_iob=O
+8	BACK	BACK	NOUN	NNS	_	7	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+9	,	,	PUNCT	,	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+10	shows	show	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+11	that	that	SCONJ	IN	_	18	mark	_	ent_type=_|ent_id=2|ent_iob=O
+12	Mister	Mister	PROPN	NNP	_	15	compound	_	ent_type=_|ent_id=2|ent_iob=O
+13	Señor	Señor	PROPN	NNP	_	15	compound	_	ent_type=_|ent_id=2|ent_iob=O
+14	Love	Love	PROPN	NNP	_	15	compound	_	ent_type=_|ent_id=2|ent_iob=O
+15	Daddy	daddy	NOUN	NN	_	18	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+16	is	be	AUX	VBZ	_	18	aux	_	ent_type=_|ent_id=2|ent_iob=O
+17	actually	actually	ADV	RB	_	18	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+18	sitting	sit	VERB	VBG	_	10	ccomp	_	ent_type=_|ent_id=2|ent_iob=O
+19	in	in	ADP	IN	_	18	prep	_	ent_type=_|ent_id=2|ent_iob=O
+20	a	a	DET	DT	_	22	det	_	ent_type=_|ent_id=2|ent_iob=O
+21	storefront	storefront	ADJ	JJ	_	22	amod	_	ent_type=_|ent_id=2|ent_iob=O
+22	window	window	NOUN	NN	_	19	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+23	.	.	PUNCT	.	_	10	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (DT The) (NN control) (NN booth)) (VP (VBZ looks) (ADVP (RB directly) (IN out)) (PP (IN onto) (NP (DT the) (NN street)))) (. .))
+# scene = 1
+# sent_id = 14
+# sent_len = 10
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = The control booth looks directly out onto the street.
+# time = DAY
+1	The	the	DET	DT	_	3	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	control	control	NOUN	NN	_	3	compound	_	ent_type=_|ent_id=2|ent_iob=O
+3	booth	booth	NOUN	NN	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	looks	look	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	directly	directly	ADV	RB	_	4	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+6	out	out	SCONJ	IN	_	4	prt	_	ent_type=_|ent_id=2|ent_iob=O
+7	onto	onto	ADP	IN	_	4	prep	_	ent_type=_|ent_id=2|ent_iob=O
+8	the	the	DET	DT	_	9	det	_	ent_type=_|ent_id=2|ent_iob=O
+9	street	street	NOUN	NN	_	7	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+10	.	.	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (DT This)) (VP (VBZ is) (NP (NNP WE) (VP (NNP LOVE) (NN RADIO) (, ,) (NP (NP (DT a) (JJ modest) (NN station)) (PP (IN with) (NP (DT a) (JJ loyal) (NN following)))) (, ,) (NFP *) (PP (ADVP (RB right)) (IN in) (NP (NP (DT the) (NN heart)) (PP (IN of) (NP (DT the) (NN neighborhood)))))))) (. .))
+# scene = 1
+# sent_id = 15
+# sent_len = 23
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = This is WE LOVE RADIO, a modest station with a loyal following,* right in the heart of the neighborhood.
+# time = DAY
+1	This	this	DET	DT	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	WE	WE	PROPN	NNP	_	5	compound	_	ent_type=ORG|ent_id=3|ent_iob=B
+4	LOVE	LOVE	PROPN	NNP	_	5	compound	_	ent_type=ORG|ent_id=1|ent_iob=I
+5	RADIO	radio	NOUN	NN	_	2	attr	_	ent_type=ORG|ent_id=1|ent_iob=I
+6	,	,	PUNCT	,	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	a	a	DET	DT	_	9	det	_	ent_type=_|ent_id=2|ent_iob=O
+8	modest	modest	ADJ	JJ	_	9	amod	_	ent_type=_|ent_id=2|ent_iob=O
+9	station	station	NOUN	NN	_	5	appos	_	ent_type=_|ent_id=2|ent_iob=O
+10	with	with	ADP	IN	_	9	prep	_	ent_type=_|ent_id=2|ent_iob=O
+11	a	a	DET	DT	_	13	det	_	ent_type=_|ent_id=2|ent_iob=O
+12	loyal	loyal	ADJ	JJ	_	13	amod	_	ent_type=_|ent_id=2|ent_iob=O
+13	following	following	NOUN	NN	_	10	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+14	,	,	PUNCT	,	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+15	*	*	PUNCT	NFP	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+16	right	right	ADV	RB	_	5	appos	_	ent_type=_|ent_id=2|ent_iob=O
+17	in	in	ADP	IN	_	16	prep	_	ent_type=_|ent_id=2|ent_iob=O
+18	the	the	DET	DT	_	19	det	_	ent_type=_|ent_id=2|ent_iob=O
+19	heart	heart	NOUN	NN	_	17	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+20	of	of	ADP	IN	_	19	prep	_	ent_type=_|ent_id=2|ent_iob=O
+21	the	the	DET	DT	_	22	det	_	ent_type=_|ent_id=2|ent_iob=O
+22	neighborhood	neighborhood	NOUN	NN	_	20	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+23	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (DT The) (NN OPENING) (NNP SHOT)) (VP (MD will) (VP (VB be) (NP (DT a) (NNP TRICK) (NN SHOT)))) (: --))
+# scene = 1
+# sent_id = 16
+# sent_len = 9
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = The OPENING SHOT will be a TRICK SHOT--
+# time = DAY
+1	The	the	DET	DT	_	3	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	OPENING	opening	NOUN	NN	_	3	compound	_	ent_type=_|ent_id=2|ent_iob=O
+3	SHOT	SHOT	PROPN	NNP	_	5	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	will	will	VERB	MD	_	5	aux	_	ent_type=_|ent_id=2|ent_iob=O
+5	be	be	AUX	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+6	a	a	DET	DT	_	8	det	_	ent_type=_|ent_id=2|ent_iob=O
+7	TRICK	TRICK	PROPN	NNP	_	8	compound	_	ent_type=ORG|ent_id=3|ent_iob=B
+8	SHOT	shot	NOUN	NN	_	5	attr	_	ent_type=_|ent_id=2|ent_iob=O
+9	--	--	PUNCT	:	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (DT the) (NNP CAMERA) (VBG PULLING)) (VP (RB BACK) (PP (IN through) (NP (DT the) (JJ storefront) (NN window)))) (. .) (_SP  ))
+# scene = 1
+# sent_id = 17
+# sent_len = 9
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = the CAMERA PULLING BACK through the storefront window.
+# time = DAY
+1	the	the	DET	DT	_	2	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	CAMERA	CAMERA	PROPN	NNP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	PULLING	pull	VERB	VBG	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	BACK	back	ADV	RB	_	3	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+5	through	through	ADP	IN	_	4	prep	_	ent_type=_|ent_id=2|ent_iob=O
+6	the	the	DET	DT	_	8	det	_	ent_type=_|ent_id=2|ent_iob=O
+7	storefront	storefront	ADJ	JJ	_	8	compound	_	ent_type=_|ent_id=2|ent_iob=O
+8	window	window	NOUN	NN	_	5	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+9	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (ADVP (RB Here)) (NP (PRP I)) (VP (VBP am)) (. .))
+# scene = 1
+# sent_id = 18
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Here I am.
+# time = DAY
+1	Here	here	ADV	RB	_	3	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+2	I	-PRON-	PRON	PRP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	am	be	AUX	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (SQ (VBP Am) (NP (PRP I)) (ADVP (RB here)) (. ?))
+# scene = 1
+# sent_id = 19
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Am I here?
+# time = DAY
+1	Am	be	AUX	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	I	-PRON-	PRON	PRP	_	1	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	here	here	ADV	RB	_	1	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+4	?	?	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (VP (VB Y'know) (NP (PRP it))) (. .))
+# scene = 1
+# sent_id = 20
+# sent_len = 3
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Y'know it.
+# time = DAY
+1	Y'know	y'know	VERB	VB	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	it	-PRON-	PRON	PRP	_	1	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+3	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (NP (PRP It)) (VP (PRP ya) (VP (VBP know))) (. .))
+# scene = 1
+# sent_id = 21
+# sent_len = 4
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = It ya know.
+# time = DAY
+1	It	-PRON-	PRON	PRP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	ya	ya	PRON	PRP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	know	know	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (NP (DT This)) (VP (VBZ is) (NP (NNP Mister) (NNP Señor) (NNP Love) (NNP Daddy)) (, ,) (S (VP (S (VP (VBG doing) (NP (DT the) (NN nasty)) (PP (IN to) (NP (NNP ya) (NNS ears))))) (, ,) (S (NP (NNP ya) (NP (VBZ ears))) (PP (IN to) (NP (DT the) (NNP nasty))))))) (. .))
+# scene = 1
+# sent_id = 22
+# sent_len = 20
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = This is Mister Señor Love Daddy, doing the nasty to ya ears, ya ears to the nasty.
+# time = DAY
+1	This	this	DET	DT	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	is	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	Mister	Mister	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+4	Señor	Señor	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+5	Love	Love	PROPN	NNP	_	6	compound	_	ent_type=_|ent_id=2|ent_iob=O
+6	Daddy	Daddy	PROPN	NNP	_	2	attr	_	ent_type=_|ent_id=2|ent_iob=O
+7	,	,	PUNCT	,	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+8	doing	do	VERB	VBG	_	2	advcl	_	ent_type=_|ent_id=2|ent_iob=O
+9	the	the	DET	DT	_	10	det	_	ent_type=_|ent_id=2|ent_iob=O
+10	nasty	nasty	NOUN	NN	_	8	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+11	to	to	ADP	IN	_	8	prep	_	ent_type=_|ent_id=2|ent_iob=O
+12	ya	ya	PROPN	NNP	_	13	compound	_	ent_type=_|ent_id=2|ent_iob=O
+13	ears	ear	NOUN	NNS	_	11	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+14	,	,	PUNCT	,	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+15	ya	ya	PROPN	NNP	_	16	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+16	ears	ear	VERB	VBZ	_	8	npadvmod	_	ent_type=_|ent_id=2|ent_iob=O
+17	to	to	ADP	IN	_	16	prep	_	ent_type=_|ent_id=2|ent_iob=O
+18	the	the	DET	DT	_	19	det	_	ent_type=_|ent_id=2|ent_iob=O
+19	nasty	nasty	PROPN	NNP	_	17	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+20	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (S (NP (NNP I'se)) (VP (VBP play) (ADVP (RB only)) (NP (NNP da) (NNS platters) (NNP dat) (NNP matter)))) (, ,) (S (NP (NNP da)) (VP (NNP matters) (NP (NNP dat) (NNP platter)))))
+# scene = 1
+# sent_id = 23
+# sent_len = 12
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = I'se play only da platters dat matter, da matters dat platter
+# time = DAY
+1	I'se	I'se	PROPN	NNP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	play	play	VERB	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	only	only	ADV	RB	_	5	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+4	da	da	PROPN	NNP	_	5	compound	_	ent_type=_|ent_id=2|ent_iob=O
+5	platters	platter	NOUN	NNS	_	7	compound	_	ent_type=_|ent_id=2|ent_iob=O
+6	dat	dat	PROPN	NNP	_	7	compound	_	ent_type=_|ent_id=2|ent_iob=O
+7	matter	matter	PROPN	NNP	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+8	,	,	PUNCT	,	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+9	da	da	PROPN	NNP	_	10	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+10	matters	matters	PROPN	NNP	_	2	conj	_	ent_type=_|ent_id=2|ent_iob=O
+11	dat	dat	PROPN	NNP	_	12	compound	_	ent_type=_|ent_id=2|ent_iob=O
+12	platter	platter	PROPN	NNP	_	10	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 3
+# loc = INT
+# parse = (S (CC and) (NP (DT that)) (VP (VBZ 's) (NP (DT the) (NN truth)) (, ,) (NP (NNP Ruth))) (. .) (_SP  ))
+# scene = 1
+# sent_id = 24
+# sent_len = 8
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = and that's the truth, Ruth.
+# time = DAY
+1	and	and	CCONJ	CC	_	3	cc	_	ent_type=_|ent_id=2|ent_iob=O
+2	that	that	DET	DT	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	's	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	the	the	DET	DT	_	5	det	_	ent_type=_|ent_id=2|ent_iob=O
+5	truth	truth	NOUN	NN	_	3	attr	_	ent_type=_|ent_id=2|ent_iob=O
+6	,	,	PUNCT	,	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	Ruth	Ruth	PROPN	NNP	_	5	appos	_	ent_type=PERSON|ent_id=3|ent_iob=B
+8	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (S (NP (PRP He)) (VP (VBZ hits) (NP (DT the) (NN cart) (NN machine)))) (CC and) (S (NP (PRP we)) (VP (VBP hear) (NP (DT a) (NN station) (NN jingle)))) (. .) (_SP  ))
+# scene = 1
+# sent_id = 25
+# sent_len = 12
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = He hits the cart machine and we hear a station jingle.
+# time = DAY
+1	He	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	hits	hit	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	the	the	DET	DT	_	5	det	_	ent_type=_|ent_id=2|ent_iob=O
+4	cart	cart	NOUN	NN	_	5	compound	_	ent_type=_|ent_id=2|ent_iob=O
+5	machine	machine	NOUN	NN	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+6	and	and	CCONJ	CC	_	2	cc	_	ent_type=_|ent_id=2|ent_iob=O
+7	we	-PRON-	PRON	PRP	_	8	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+8	hear	hear	VERB	VBP	_	2	conj	_	ent_type=_|ent_id=2|ent_iob=O
+9	a	a	DET	DT	_	11	det	_	ent_type=_|ent_id=2|ent_iob=O
+10	station	station	NOUN	NN	_	11	compound	_	ent_type=_|ent_id=2|ent_iob=O
+11	jingle	jingle	NOUN	NN	_	8	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+12	.	.	PUNCT	.	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 4
+# loc = INT
+# parse = (NP (NP (NP (NN L)) (HYPH -) (NP (NN O))) (HYPH -) (NP (NN V)) (HYPH -) (NP (NN E) (NN RADIO)) (. .) (_SP  ))
+# scene = 1
+# sent_id = 26
+# sent_len = 9
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = VO
+# stage_direction = True
+# text = L-O-V-E RADIO.
+# time = DAY
+1	L	l	NOUN	NN	_	7	compound	_	ent_type=_|ent_id=2|ent_iob=O
+2	-	-	PUNCT	HYPH	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+3	O	o	NOUN	NN	_	7	compound	_	ent_type=_|ent_id=2|ent_iob=O
+4	-	-	PUNCT	HYPH	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+5	V	v	NOUN	NN	_	7	compound	_	ent_type=_|ent_id=2|ent_iob=O
+6	-	-	PUNCT	HYPH	_	7	punct	_	ent_type=_|ent_id=2|ent_iob=O
+7	E	e	NOUN	NN	_	8	compound	_	ent_type=_|ent_id=2|ent_iob=O
+8	RADIO	radio	NOUN	NN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+9	.	.	PUNCT	.	_	8	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (S (VP (VP (VBG Doing) (NP (NNP da) (NNP ying))) (CC and) (NNP yang) (NNP da) (NNP flip)) (CC and) (VP (VP (NNP Doing) (NP (SBAR (NP (NNP da) (NNP ying)) (CC and) (NNP yang)) (NP (NNP da) (NNP flip)))) (CC and) (VP (NNP flop) (S (VP (NNP da) (ADJP (NNP hippy) (CC and) (JJ hoppy)))))) (. .) (_SP  ))
+# scene = 1
+# sent_id = 27
+# sent_len = 22
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Doing da ying and yang da flip and Doing da ying and yang da flip and flop da hippy and hoppy.
+# time = DAY
+1	Doing	do	VERB	VBG	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	da	da	PROPN	NNP	_	3	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+3	ying	ying	PROPN	NNP	_	1	dobj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+4	and	and	CCONJ	CC	_	3	cc	_	ent_type=_|ent_id=2|ent_iob=O
+5	yang	yang	PROPN	NNP	_	6	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+6	da	da	PROPN	NNP	_	3	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+7	flip	flip	PROPN	NNP	_	1	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+8	and	and	CCONJ	CC	_	7	cc	_	ent_type=_|ent_id=2|ent_iob=O
+9	Doing	Doing	PROPN	NNP	_	7	conj	_	ent_type=PERSON|ent_id=3|ent_iob=B
+10	da	da	PROPN	NNP	_	11	compound	_	ent_type=PERSON|ent_id=1|ent_iob=I
+11	ying	ying	PROPN	NNP	_	9	dobj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+12	and	and	CCONJ	CC	_	11	cc	_	ent_type=_|ent_id=2|ent_iob=O
+13	yang	yang	PROPN	NNP	_	14	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+14	da	da	PROPN	NNP	_	11	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+15	flip	flip	PROPN	NNP	_	7	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+16	and	and	CCONJ	CC	_	15	cc	_	ent_type=_|ent_id=2|ent_iob=O
+17	flop	flop	PROPN	NNP	_	19	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+18	da	da	PROPN	NNP	_	19	compound	_	ent_type=PERSON|ent_id=1|ent_iob=I
+19	hippy	hippy	PROPN	NNP	_	15	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+20	and	and	CCONJ	CC	_	19	cc	_	ent_type=_|ent_id=2|ent_iob=O
+21	hoppy	hoppy	ADJ	JJ	_	19	conj	_	ent_type=_|ent_id=2|ent_iob=O
+22	.	.	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (S (VP (NNP Yo) (VP (NNP da) (VP (VBD lay) (SBAR (S (NP (PRP he)) (VP (RB hoo))))))) (. .))
+# scene = 1
+# sent_id = 28
+# sent_len = 6
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = Yo da lay he hoo.
+# time = DAY
+1	Yo	Yo	PROPN	NNP	_	2	compound	_	ent_type=_|ent_id=2|ent_iob=O
+2	da	da	PROPN	NNP	_	3	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+3	lay	lie	VERB	VBD	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+4	he	-PRON-	PRON	PRP	_	5	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+5	hoo	hoo	ADV	RB	_	3	ccomp	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	3	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (S (NP (NP (PRP I)) (VBP have) (NP (NN today) (POS 's))) (VP (VP (NNP Doing) (NP (NNP da) (NNP ying) (CC and) (NNP yang) (NNP da) (NNP flip))) (CC and) (NNP flop) (NP (NNP da) (NNP hippy))) (CC and))
+# scene = 1
+# sent_id = 29
+# sent_len = 16
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = I have today's Doing da ying and yang da flip and flop da hippy and
+# time = DAY
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	have	have	AUX	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	today	today	NOUN	NN	_	5	nsubj	_	ent_type=DATE|ent_id=3|ent_iob=B
+4	's	's	PART	POS	_	3	case	_	ent_type=_|ent_id=2|ent_iob=O
+5	Doing	Doing	PROPN	NNP	_	2	ccomp	_	ent_type=PERSON|ent_id=3|ent_iob=B
+6	da	da	PROPN	NNP	_	7	compound	_	ent_type=PERSON|ent_id=1|ent_iob=I
+7	ying	ying	PROPN	NNP	_	5	dobj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+8	and	and	CCONJ	CC	_	7	cc	_	ent_type=_|ent_id=2|ent_iob=O
+9	yang	yang	PROPN	NNP	_	10	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+10	da	da	PROPN	NNP	_	7	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+11	flip	flip	PROPN	NNP	_	5	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+12	and	and	CCONJ	CC	_	11	cc	_	ent_type=_|ent_id=2|ent_iob=O
+13	flop	flop	PROPN	NNP	_	15	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+14	da	da	PROPN	NNP	_	15	compound	_	ent_type=PERSON|ent_id=1|ent_iob=I
+15	hippy	hippy	PROPN	NNP	_	11	conj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+16	and	and	CCONJ	CC	_	15	cc	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (S (NP (NNP hoppy) (NNP Yo)) (VP (NNP da) (VP (VBD lay) (SBAR (S (NP (PRP he)) (VP (RB hoo)))))) (. .))
+# scene = 1
+# sent_id = 30
+# sent_len = 7
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = hoppy Yo da lay he hoo.
+# time = DAY
+1	hoppy	hoppy	PROPN	NNP	_	3	compound	_	ent_type=_|ent_id=2|ent_iob=O
+2	Yo	Yo	PROPN	NNP	_	3	compound	_	ent_type=PERSON|ent_id=3|ent_iob=B
+3	da	da	PROPN	NNP	_	4	nsubj	_	ent_type=PERSON|ent_id=1|ent_iob=I
+4	lay	lie	VERB	VBD	_	0	ROOT	_	ent_type=PERSON|ent_id=1|ent_iob=I
+5	he	-PRON-	PRON	PRP	_	6	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+6	hoo	hoo	ADV	RB	_	4	ccomp	_	ent_type=_|ent_id=2|ent_iob=O
+7	.	.	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (S (NP (PRP I)) (VP (VBP have) (NP (NP (NN today) (POS 's)) (NN forecast))) (NFP ..) (_SP  ))
+# scene = 1
+# sent_id = 31
+# sent_len = 6
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = I have today's forecast..
+# time = DAY
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	have	have	AUX	VBP	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	today	today	NOUN	NN	_	5	poss	_	ent_type=_|ent_id=2|ent_iob=O
+4	's	's	PART	POS	_	3	case	_	ent_type=_|ent_id=2|ent_iob=O
+5	forecast	forecast	NOUN	NN	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+6	..	..	PUNCT	NFP	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 5
+# loc = INT
+# parse = (NP (JJ HOT) (. !) (_SP  ))
+# scene = 1
+# sent_id = 32
+# sent_len = 2
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = MISTER SEÑOR LOVE DADDY
+# stage_direction = True
+# text = HOT!
+# time = DAY
+1	HOT	hot	ADJ	JJ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+2	!	!	PUNCT	.	_	1	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (PRP He)) (VP (VBZ laughs) (PP (IN like) (NP (DT a) (NN madman)))) (. .))
+# scene = 1
+# sent_id = 33
+# sent_len = 6
+# setting = WE LOVE RADIO STATION STOREFRONT
+# speaker = stage_direction
+# stage_direction = True
+# text = He laughs like a madman.
+# time = DAY
+1	He	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	laughs	laugh	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	like	like	SCONJ	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+4	a	a	DET	DT	_	5	det	_	ent_type=_|ent_id=2|ent_iob=O
+5	madman	madman	NOUN	NN	_	3	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O

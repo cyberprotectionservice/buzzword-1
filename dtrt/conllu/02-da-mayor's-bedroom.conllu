@@ -1,0 +1,64 @@
+# loc = INT
+# parse = (S (S (NP (DT An) (JJ old) (, ,) (JJ grizzled) (NN man)) (VP (VBZ stirs) (PP (IN in) (NP (DT the) (NN bed))))) (, ,) (S (NP (PRP$ his) (NNS sheets)) (VP (VBP are) (VP (VBN soaked) (PP (IN with) (NP (NN sweat)))))) (. .))
+# scene = 2
+# sent_id = 1
+# sent_len = 17
+# setting = DA MAYOR'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = An old, grizzled man stirs in the bed, his sheets are soaked with sweat.
+# time = DAY
+1	An	an	DET	DT	_	5	det	_	ent_type=_|ent_id=2|ent_iob=O
+2	old	old	ADJ	JJ	_	5	amod	_	ent_type=_|ent_id=2|ent_iob=O
+3	,	,	PUNCT	,	_	5	punct	_	ent_type=_|ent_id=2|ent_iob=O
+4	grizzled	grizzled	ADJ	JJ	_	5	amod	_	ent_type=_|ent_id=2|ent_iob=O
+5	man	man	NOUN	NN	_	6	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+6	stirs	stir	VERB	VBZ	_	14	ccomp	_	ent_type=_|ent_id=2|ent_iob=O
+7	in	in	ADP	IN	_	6	prep	_	ent_type=_|ent_id=2|ent_iob=O
+8	the	the	DET	DT	_	9	det	_	ent_type=_|ent_id=2|ent_iob=O
+9	bed	bed	NOUN	NN	_	7	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+10	,	,	PUNCT	,	_	14	punct	_	ent_type=_|ent_id=2|ent_iob=O
+11	his	-PRON-	DET	PRP$	_	12	poss	_	ent_type=_|ent_id=2|ent_iob=O
+12	sheets	sheet	NOUN	NNS	_	14	nsubjpass	_	ent_type=_|ent_id=2|ent_iob=O
+13	are	be	AUX	VBP	_	14	auxpass	_	ent_type=_|ent_id=2|ent_iob=O
+14	soaked	soak	VERB	VBN	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+15	with	with	ADP	IN	_	14	prep	_	ent_type=_|ent_id=2|ent_iob=O
+16	sweat	sweat	NOUN	NN	_	15	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+17	.	.	PUNCT	.	_	14	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# loc = INT
+# parse = (S (NP (PRP He)) (VP (VBZ flings) (NP (PRP them)) (PP (IN off) (NP (PRP$ his) (JJ wet) (NN body)))) (. .) (_SP  ))
+# scene = 2
+# sent_id = 2
+# sent_len = 8
+# setting = DA MAYOR'S BEDROOM
+# speaker = stage_direction
+# stage_direction = True
+# text = He flings them off his wet body.
+# time = DAY
+1	He	-PRON-	PRON	PRP	_	2	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+2	flings	fling	VERB	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+3	them	-PRON-	PRON	PRP	_	2	dobj	_	ent_type=_|ent_id=2|ent_iob=O
+4	off	off	ADP	IN	_	2	prep	_	ent_type=_|ent_id=2|ent_iob=O
+5	his	-PRON-	DET	PRP$	_	7	poss	_	ent_type=_|ent_id=2|ent_iob=O
+6	wet	wet	ADJ	JJ	_	7	amod	_	ent_type=_|ent_id=2|ent_iob=O
+7	body	body	NOUN	NN	_	4	pobj	_	ent_type=_|ent_id=2|ent_iob=O
+8	.	.	PUNCT	.	_	2	punct	_	ent_type=_|ent_id=2|ent_iob=O
+
+# line = 6
+# loc = INT
+# parse = (S (INTJ (UH Damn)) (, ,) (NP (PRP it)) (VP (VBZ 's) (ADJP (JJ hot))) (. .))
+# scene = 2
+# sent_id = 3
+# sent_len = 6
+# setting = DA MAYOR'S BEDROOM
+# speaker = DA MAYOR
+# stage_direction = True
+# text = Damn, it's hot.
+# time = DAY
+1	Damn	damn	INTJ	UH	_	4	advmod	_	ent_type=_|ent_id=2|ent_iob=O
+2	,	,	PUNCT	,	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
+3	it	-PRON-	PRON	PRP	_	4	nsubj	_	ent_type=_|ent_id=2|ent_iob=O
+4	's	be	AUX	VBZ	_	0	ROOT	_	ent_type=_|ent_id=2|ent_iob=O
+5	hot	hot	ADJ	JJ	_	4	acomp	_	ent_type=_|ent_id=2|ent_iob=O
+6	.	.	PUNCT	.	_	4	punct	_	ent_type=_|ent_id=2|ent_iob=O
