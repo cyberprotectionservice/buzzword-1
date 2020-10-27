@@ -30,7 +30,7 @@ SECRET_KEY = "_^vo*lm=7o!zoj4c6zi*di!kw5ovar@*@%subhxmv*pu=)!-w5"
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "localhost", "127.0.0.1:8000", "172.23.3.66", "172.23.30.219"]
+ALLOWED_HOSTS = ["*"]
 
 # APPEND_SLASH = False
 
@@ -208,7 +208,7 @@ PLOTLY_DASH = {
     # Name of view wrapping function
     "view_decorator": None,
     # Flag to control location of initial argument storage
-    "cache_arguments": True,
+    "cache_arguments": False,
     # Flag controlling local serving of assets
     "serve_locally": False,
 }
@@ -287,5 +287,5 @@ PWD = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TESSDATA_PREFIX = os.path.join(PWD, "tessdata")
 
 # this should be set to none, or a corpus slug
-BUZZWORD_SPECIFIC_CORPUS = None
+BUZZWORD_SPECIFIC_CORPUS = "do-the-right-thing"
 BUZZWORD_EXAMPLE_CORPUS = None
