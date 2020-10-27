@@ -13,4 +13,5 @@
     "initial_table": {"show": "x", "subcorpora": "file"},
     "initial_query": {"target": "x", "query": "VERB"},
     "pdfs": null
+  }
 }
